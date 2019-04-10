@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="DialogTheme" parent="@android:style/Theme.Holo.Dialog">
+        <!-- <item name="android:windowBackground">@android:color/holo_red_dark</item> -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- Alert Style -->
+    <style name="txtAlertstyle" parent="AppTheme">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="AppTheme.PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Toolbar.Theme"
+        parent="ThemeOverlay.AppCompat.Dark">
+        <!--Base.Widget.AppCompat.DrawerArrowToggle-->
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RetroBus</string>
+    <string name="error_no_internet">Internet connection is not available</string>
+</resources>
